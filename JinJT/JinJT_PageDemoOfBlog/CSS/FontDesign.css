@@ -1,0 +1,33 @@
+.FontOfNavBar
+{
+    font-family:"Microsoft YaHei UI";
+    margin-left:5px;
+    margin-right:5px;
+    color:slategrey;
+    font-size:30px;
+    font-weight: bold;
+}
+
+.FontOfListTitle
+{
+    font-family: "Microsoft YaHei UI";
+    margin-left:10px;
+    color:black;
+    font-size:40px;
+    font-weight:bold;
+}
+
+.FontOfListDetails
+{
+    font-family:"Microsoft YaHei UI";
+    color:dimgrey;
+    font-size:25px;
+}
+
+.FontOfPathNavigation
+{
+    font-family: "Microsoft YaHei UI";
+    color:lightgray;
+    font-size:20px;
+    font-weight:bold;
+}
