@@ -29,11 +29,11 @@
     height: 4px;
     background-color: #333333;
     background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
-    -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
+                      -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
     background-image: -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-    -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+                      -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-image: -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-    -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+                      -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-size: 10px 4px;
     background-repeat: repeat-x;
     background-position: 0 100%;
@@ -120,6 +120,7 @@ i[class^=fa]{
 
 #nav-platform-menu{
     width: 200px;
+    height: 140px;
     margin: 0;
     position: absolute;
     right: 0;
@@ -129,7 +130,6 @@ i[class^=fa]{
 
 #nav-platform-menu>ul{
     list-style-type: none;
-    padding: 10px;
 }
 
 #nav-platform-menu>ul>li{
@@ -142,6 +142,10 @@ i[class^=fa]{
     font-size: 19px;
     text-decoration: none;
     color: black;
+}
+
+.zh-menu{
+    padding: 5px 20px 20px;
 }
 
 body{
@@ -175,4 +179,18 @@ body{
     margin: 0;
     color: white;
     z-index: 3;
+}
+
+#Home-body{
+    max-width: 1440px;
+    height: 1500px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+}
+
+.zh-tutorial{
+
+    background-color: black;
+    max-width: 300px;
+    height: 100px;
 }
