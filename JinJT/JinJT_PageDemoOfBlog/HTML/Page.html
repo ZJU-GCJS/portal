@@ -1,67 +1,97 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>GC_BLOG_PageOfJsAndUnity_DEMO</title>
-    <link type="text/css" rel="stylesheet" href="../CSS/FontDesign.css">
+    <link type="text/css" rel="stylesheet" href="../CSS/JJT_STYLE.css">
     <link type="text/css" rel="stylesheet" href="../CSS/bootstrap.min.css">
     <script src="../JavaScript/MyJavaScript.js"></script>
-
+    <script src="../JavaScript/jquery.min.js"></script>
+    <script src="../JavaScript/bootstrap.min.js"></script>
 
 </head>
-<body style="width: 1440px;background:">
 
-    <div class="col-lg-12" style="background:#222222;">
-        <img style="width: 25%;height: auto;margin-left:30px;margin-top:30px;" class="img-rounded"
-             src="../Imagines/LOGO2.png">
-        <div class="container">
-            <ul class="nav navbar-nav">
-                <li><a class="FontOfNavBar" href="#">Home</a></li>
-                <li style="font-size:35px">|</li>
-                <li><a class="FontOfNavBar" href="#">About</a></li>
-                <li style="font-size:35px">|</li>
-                <li><a class="FontOfNavBar" href="#">JavaScript</a></li>
-                <li style="font-size:35px">|</li>
-                <li><a class="FontOfNavBar" href="#">Python</a></li>
-                <li style="font-size:35px">|</li>
-                <li><a class="FontOfNavBar" href="#">Unity3D</a></li>
-                <li style="font-size:35px">|</li>
-                <li><a class="FontOfNavBar" href="#">Blog</a></li>
+<body style="width: 1440px;">
+
+    <div  style="background:#222222;padding-bottom: 0;">
+
+        <div>
+            <img style="width: 25%;height: auto;margin-left:30px;margin-top:30px;" class="img-rounded"
+                src="../Imagines/LOGO2.png">
+        </div>
+
+        <div class="JJT_nav_container" id="JJT_nav">
+            <ul >
+                <li style="padding:5px;"></li>
+
+                <li>
+                    <a href="#">
+                         Home
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        About
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        JavaScript
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        Python
+                    </a>
+                </li>
+
+                <li>
+                    <a href="#">
+
+                        Unity3D
+                    </a>
+                </li>
+
+                <li >
+                    <a href="#">
+
+                        Blog
+
+                    </a>
+                </li>
+
+                <li style="padding:5px;"></li>
             </ul>
         </div>
+
     </div>
 
-    <div class="col-lg-2">
+    <div class="col-lg-2" style="margin:30px 0 20px 30px">
 
-        <br>
-        <br>
+        <ul class="JJT_breadcrumb">
+            <li>
+                <a href="#">
+                    Home
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    JavaScript
+                </a>
+            </li>
+        </ul>
 
-        <ol>
-            <a href="#" class="FontOfPathNavigation active">123123</a>
-            <h style="font-size:20px">/</h>
-            <a href="#" class="FontOfPathNavigation">123123</a>
-        </ol>
+        <p class="JJT_BigTitle">PASSAGE</p>
 
-        <br>
-        <br>
 
-        <p class="FontOfListTitle">JavaScript</p>
-        <div class="list-group">
-            <a class="list-group-item FontOfListDetails">hello world</a>
-            <a class="list-group-item FontOfListDetails">hello world</a>
-            <a class="list-group-item FontOfListDetails">hello world</a>
-            <a class="list-group-item FontOfListDetails">hello world</a>
-        </div>
     </div>
 </body>
 
-<script>
-    var a=[1,2,3];
-    var b=[4,5,6];
-    a=a.join();
-    console.log(b);
-    console.log(a);
-</script>
-
 </html>
-
