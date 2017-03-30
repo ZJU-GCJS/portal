@@ -14,9 +14,11 @@
 
 <!-- Header -->
 <header id="main-header">
+
     <div id="flag">
         <img src="image/icon-flag.png" alt="Background" width="155px">
     </div>
+
     <nav id="main-nav">
         <ul>
             <li><a href='#'>Home</a> </li>
@@ -27,7 +29,7 @@
             <li>
                 <a href="#">Blog<i class="fa fa-caret-down" aria-hidden="true"></i></a>
                 <div class="down-menu down-menu-caret" style="display: none; z-index: 99998;" aria-hidden="false" id="nav-platform-menu">
-                    <ul class="zh-menu">
+                    <ul>
                         <li><a href="#">JavaScript</a></li>
                         <li><a href="#">Python</a></li>
                         <li><a href="#">Unity3D</a></li>
@@ -36,12 +38,39 @@
             </li>
         </ul>
     </nav>
+
 </header>
 <div class="border_saw"></div>
 
 <!--main body-->
-<div>
+<div id="home-body">
+    <div class="home-exhibition jumbotron" align="center" style="padding: 0">
 
+        <img src="image/GoogleCamp.png" style="width: 95%">
+
+        <form id="form-search" action="./data/data.json" method="get" role="search">
+            <span id="home-search">
+                <input name="search" type="search" placeholder="search" class="search-box">
+                <span class="glyphicon glyphicon-search"></span>
+            </span>
+        </form>
+
+    </div>
+
+    <div class="row">
+        <div class="col-xs-6 col-md-4">
+            JavaScript
+            <img src="image/icon-JavaScript.png" width="35%">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            Python
+            <img src="image/icon-python.png" width="100%">
+        </div>
+        <div class="col-xs-6 col-md-4">
+            Unity3D
+            <img src="image/icon-unity3D.png" width="40%">
+        </div>
+    </div>
 </div>
 
 <footer>

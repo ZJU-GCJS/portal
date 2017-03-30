@@ -29,11 +29,11 @@
     height: 4px;
     background-color: #333333;
     background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
-                      -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
+    -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
     background-image: -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-                      -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-image: -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-                      -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-size: 10px 4px;
     background-repeat: repeat-x;
     background-position: 0 100%;
@@ -120,7 +120,6 @@ i[class^=fa]{
 
 #nav-platform-menu{
     width: 200px;
-    height: 140px;
     margin: 0;
     position: absolute;
     right: 0;
@@ -130,6 +129,7 @@ i[class^=fa]{
 
 #nav-platform-menu>ul{
     list-style-type: none;
+    padding: 10px;
 }
 
 #nav-platform-menu>ul>li{
@@ -144,10 +144,6 @@ i[class^=fa]{
     color: black;
 }
 
-.zh-menu{
-    padding: 5px 20px 20px;
-}
-
 body{
     margin: 0;
     padding: 0;
@@ -156,41 +152,52 @@ body{
     font-family: "Open Sans",Arial,sans-serif;
 }
 
-#search[class^=fa]{
-    text-align: right;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 5px;
-}
-
-.search-box{
-    width: 60px;
-    transition: width 0.5s;
-}
-
-.search-box:focus{
-    width: 300px;
-}
-
-.tag{
-    position: relative;
-    top: -53px;
-    font-size: 37px;
-    margin: 0;
-    color: white;
-    z-index: 3;
-}
-
-#Home-body{
+#home-body{
     max-width: 1440px;
     height: 1500px;
     margin: 0 auto;
-    background-color: #f2f2f2;
+    background-color: #f6f6f6;
+    padding: 35px;
+}
+.home-exhibition{
+    overflow: hidden;
+    margin-top: 20px;
+    padding: 0;
+    height: auto;
 }
 
-.zh-tutorial{
+#form-search{
+    margin: -4% 20% 25px;
+    height: 100%;
+    overflow: hidden;
+}
 
-    background-color: black;
-    max-width: 300px;
-    height: 100px;
+#home-search{
+    height: 100%;
+    font-size: 22px;
+    overflow: hidden;
+}
+
+.search-box{
+    width: 70%;
+    height: 38px;
+    border: none;
+}
+
+@media screen and (max-width: 974px) {
+    #home-search {
+        font-size: 18px;
+    }
+
+    .search-box{
+        height: 28px;
+    }
+
+    #form-search{
+        margin: -4% 20% 15px;
+    }
+}
+
+#home-tutorial{
+
 }
