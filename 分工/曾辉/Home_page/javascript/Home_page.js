@@ -11,4 +11,7 @@ window.onload = function () {
     target_2.onmouseout= function () {
         document.getElementById("nav-platform-menu").style.display = "none";
     };
+
+
+
 };
