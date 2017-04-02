@@ -2,14 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb375d3-cfc7-4e0c-80f4-3a13abb4565d" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/image/background.png" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/icon-JavaScript.png" afterPath="$PROJECT_DIR$/image/icon-JavaScript.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/icon-flag.png" afterPath="$PROJECT_DIR$/image/icon-flag.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/image/icon-python.png" afterPath="$PROJECT_DIR$/image/icon-python.png" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home_page.html" afterPath="$PROJECT_DIR$/Home_page.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/javascript/Home_page.js" afterPath="$PROJECT_DIR$/javascript/Home_page.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style/Home_page.css" afterPath="$PROJECT_DIR$/style/Home_page.css" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../../Everyone/navigation/image/background.png" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Everyone/navigation/image/icon-flag.png" afterPath="$PROJECT_DIR$/../../Everyone/navigation/image/icon-flag.png" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Everyone/navigation/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../Everyone/navigation/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Everyone/navigation/navigation.html" afterPath="$PROJECT_DIR$/../../Everyone/navigation/navigation.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../Everyone/navigation/style/navigation.css" afterPath="$PROJECT_DIR$/../../Everyone/navigation/style/navigation.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,11 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="375">
-      <file leaf-file-name="Home_page.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Home_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="2500">
-              <caret line="127" column="81" lean-forward="true" selection-start-line="127" selection-start-column="81" selection-end-line="127" selection-end-column="81" />
+            <state relative-caret-position="-600">
+              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="30" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -50,11 +47,21 @@
           </provider>
         </entry>
       </file>
+      <file leaf-file-name="Home_page.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/javascript/Home_page.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="350">
+              <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Home_page.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style/Home_page.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="553">
-              <caret line="287" column="11" lean-forward="false" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
+            <state relative-caret-position="100">
+              <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
               <folding />
             </state>
           </provider>
@@ -294,7 +301,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="js-jscs-nodeInterpreter" value="C:\Program Files\nodejs\node.exe" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../Everyone/navigation" />
     <property name="settings.editor.selected.configurable" value="liveEdit" />
   </component>
   <component name="RecentsManager">
@@ -395,12 +402,12 @@
       <workItem from="1490880894598" duration="9375000" />
       <workItem from="1490891360138" duration="574000" />
       <workItem from="1490926062053" duration="19488000" />
-      <workItem from="1491024172052" duration="11391000" />
+      <workItem from="1491024172052" duration="12334000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="83818000" />
+    <option name="totallyTimeSpent" value="84761000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-60" width="1938" height="1168" extended-state="6" />
@@ -722,26 +729,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/javascript/Home_page.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="350">
-          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/style/Home_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="553">
-          <caret line="287" column="11" lean-forward="false" selection-start-line="287" selection-start-column="11" selection-end-line="287" selection-end-column="11" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2500">
-          <caret line="127" column="81" lean-forward="true" selection-start-line="127" selection-start-column="81" selection-end-line="127" selection-end-column="81" />
+        <state relative-caret-position="-600">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="42" selection-end-column="30" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -753,6 +744,22 @@
             <element signature="n#style#0;n#img#0;n#a#0;n#p#1;n#div#0;n#div#0;n#div#3;n#div#0;n#div#3;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#div#4;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/Home_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="4" column="19" lean-forward="true" selection-start-line="4" selection-start-column="19" selection-end-line="4" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/javascript/Home_page.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="350">
+          <caret line="14" column="0" lean-forward="false" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>

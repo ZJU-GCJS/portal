@@ -26,6 +26,7 @@
     clear: both;
     margin: 0 auto;
     max-width: 1440px;
+    min-width: 768px;
     height: 4px;
     background-color: #333333;
     background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
@@ -41,6 +42,7 @@
 
 #main-nav{
     max-width: 829px;
+    height: 108px;
     float:  right;
 }
 
@@ -71,7 +73,7 @@
     margin: 5px 26px;
 }
 
-@media screen and (max-width: 974px) {
+@media screen and (max-width: 992px) {
     #main-nav>ul{
         width: 400px;
         margin-top: 10px;
@@ -84,6 +86,42 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #main-header{
+        text-align: center;
+        width: 768px;
+    }
+    #flag{
+        float: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+    #main-nav{
+        float: none;
+        width: 750px;
+        clear: both;
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    #main-nav>ul{
+        padding: 0;
+        width: 750px;
+        margin-top: 10px;
+    }
+    #main-nav>ul>li{
+        width: 100px;
+        margin:  10px;
+    }
+    #main-nav>ul>li>a{
+        margin: 0;
+    }
+}
+
 i[class^=fa]{
     margin-left: 5px;
     font-size: 18px;
@@ -150,29 +188,4 @@ body{
     border: 0;
     background-color: #f9f9f9;
     font-family: "Open Sans",Arial,sans-serif;
-}
-
-#search[class^=fa]{
-    text-align: right;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 5px;
-}
-
-.search-box{
-    width: 60px;
-    transition: width 0.5s;
-}
-
-.search-box:focus{
-    width: 300px;
-}
-
-.tag{
-    position: relative;
-    top: -53px;
-    font-size: 37px;
-    margin: 0;
-    color: white;
-    z-index: 3;
 }
