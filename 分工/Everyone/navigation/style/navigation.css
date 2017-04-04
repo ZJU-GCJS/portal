@@ -4,10 +4,10 @@
     background-color: #333333;
     display: block;
     min-height: 110px;
-    border-bottom: 0px solid transparent;
+    border-bottom: 0 solid transparent;
     padding: 0;
     margin: 0 auto;
-    border-top: 0px solid #333333;
+    border-top: 0 solid #333333;
     max-width: 1440px;
     width: auto;
 }
@@ -20,15 +20,21 @@
     top: -2px;
     position: absolute;
     float: left;
-    clear: both;
 }
 
 .border_saw{
+    clear: both;
     margin: 0 auto;
     max-width: 1440px;
+    min-width: 768px;
     height: 4px;
     background-color: #333333;
-    background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(.5, transparent), color-stop(.5, #f9f9f9), to(#f9f9f9)), -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(.5, transparent), color-stop(.5, #f9f9f9), to(#f9f9f9));
+    background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
+    -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
+    background-image: -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+    -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image: -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+    -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-size: 10px 4px;
     background-repeat: repeat-x;
     background-position: 0 100%;
@@ -36,14 +42,16 @@
 
 #main-nav{
     max-width: 829px;
+    height: 108px;
     float:  right;
 }
 
 #main-nav>ul {
-    width: 738px;
+    width: 780px;
     height: 28px;
     margin-right: 5px;
     margin-top: 76px;
+    margin-bottom: 5px;
     list-style-type: none;
     float: right;
     clear: both;
@@ -65,9 +73,9 @@
     margin: 5px 26px;
 }
 
-@media screen and (max-width: 974px) {
+@media screen and (max-width: 992px) {
     #main-nav>ul{
-        width: 386px;
+        width: 400px;
         margin-top: 10px;
     }
     #main-nav>ul>li{
@@ -78,6 +86,42 @@
         margin: 0;
     }
 }
+
+@media screen and (max-width: 768px) {
+    #main-header{
+        text-align: center;
+        width: 768px;
+    }
+    #flag{
+        float: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+    #main-nav{
+        float: none;
+        width: 750px;
+        clear: both;
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    #main-nav>ul{
+        padding: 0;
+        width: 750px;
+        margin-top: 10px;
+    }
+    #main-nav>ul>li{
+        width: 100px;
+        margin:  10px;
+    }
+    #main-nav>ul>li>a{
+        margin: 0;
+    }
+}
+
 i[class^=fa]{
     margin-left: 5px;
     font-size: 18px;
@@ -91,7 +135,7 @@ i[class^=fa]{
 .down-menu:after{
     content: '';
     position: absolute;
-    top: -24px;
+    top: -23px;
     right: 47px;
     width: 0;
     height: 0;
@@ -114,7 +158,6 @@ i[class^=fa]{
 
 #nav-platform-menu{
     width: 200px;
-    height: 140px;
     margin: 0;
     position: absolute;
     right: 0;
@@ -124,16 +167,13 @@ i[class^=fa]{
 
 #nav-platform-menu>ul{
     list-style-type: none;
+    padding: 10px;
 }
 
 #nav-platform-menu>ul>li{
     text-align: left;
     width: 110px;
-    height: 19px;
-    position: relative;
-    padding: 10px;
-    left: -25px;
-    top: 5px;
+    margin: 10px;
 }
 
 #nav-platform-menu>ul>li>a{
@@ -148,41 +188,4 @@ body{
     border: 0;
     background-color: #f9f9f9;
     font-family: "Open Sans",Arial,sans-serif;
-}
-
-#search[class^=fa]{
-    text-align: right;
-    vertical-align: middle;
-    display: table-cell;
-    padding: 5px;
-}
-
-.wrap{
-    padding: 5px;
-    float: right;
-    border-radius: 5px;
-    filter:alpha(opacity=50);
-    -moz-opacity:0.5;
-    -khtml-opacity: 0.5;
-    opacity: 0.5;
-    background: #b3b3b3;
-    margin-right: 30px;
-}
-
-.search-box{
-    width: 60px;
-    transition: width 0.5s;
-}
-
-.search-box:focus{
-    width: 300px;
-}
-
-.tag{
-    position: relative;
-    top: -53px;
-    font-size: 37px;
-    margin: 0;
-    color: white;
-    z-index: 3;
 }

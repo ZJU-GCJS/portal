@@ -1,0 +1,76 @@
+.JJT_nav_container
+{
+    background: #333333;
+    margin-left:210px;
+    margin-right:210px;
+    margin-top:20px;
+    margin-bottom: 0px;
+    display: inline-block;
+}
+
+.JJT_nav_container ul
+{
+    list-style-type:none;
+    margin:0;
+    padding:0;
+}
+
+.JJT_nav_container ul li
+{
+    float:left;
+    height:60px;
+}
+
+.JJT_nav_container ul li a
+{
+    font-family:"Microsoft YaHei UI";
+    color:slategrey;
+    font-size:30px;
+    font-weight: bold;
+    width:165px;
+    display:block;
+    text-align: center;
+    padding:10px;
+}
+
+.JJT_nav_container ul li a:hover
+{
+    text-decoration:none;
+    background:#222225;
+}
+
+.JJT_nav_container ul li a:link
+{
+    text-decoration:none;
+}
+
+.JJT_breadcrumb
+{
+    font-size:25px;
+    font-family: "Microsoft YaHei UI";
+    font-weight:bold;
+    list-style-type: none;
+    background-color:rgba(70,70,70,0.1);
+    border-radius:10px;
+}
+
+.JJT_breadcrumb li a
+{
+    text-decoration:none;
+}
+
+.JJT_breadcrumb li a:hover
+{
+    text-decoration: none;
+    color:lightskyblue;
+}
+
+.JJT_BigTitle
+{
+    margin:20px;
+    text-align:center;
+    font-family:"Microsoft YaHei UI";
+    color:dimgrey;
+    font-weight:bold;
+    font-size:30px;
+}
