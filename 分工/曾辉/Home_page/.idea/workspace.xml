@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4cb375d3-cfc7-4e0c-80f4-3a13abb4565d" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/About_page.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/data/article.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/javascript/About_page.js" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/style/About_page.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/About_page.html" afterPath="$PROJECT_DIR$/About_page.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Home_page.html" afterPath="$PROJECT_DIR$/Home_page.html" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -30,8 +27,8 @@
       <file leaf-file-name="Home_page.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/Home_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="131" column="50" lean-forward="false" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+            <state relative-caret-position="350">
+              <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -62,8 +59,8 @@
       <file leaf-file-name="About_page.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/About_page.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="590">
-              <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+            <state relative-caret-position="600">
+              <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -119,7 +116,6 @@
         <option value="$USER_HOME$/AppData/Local/Temp/Rar$DIa0.977/MyJS.js" />
         <option value="$PROJECT_DIR$/data/data.json" />
         <option value="$PROJECT_DIR$/javascript/Home_page.js" />
-        <option value="$PROJECT_DIR$/Home_page.html" />
         <option value="F:/codes/javascript/Node.js/test.js" />
         <option value="F:/codes/javascript/Node.js/test.html" />
         <option value="F:/codes/javascript/project_2/blog_home.html" />
@@ -129,8 +125,9 @@
         <option value="extensions::messaging" />
         <option value="$PROJECT_DIR$/javascript/About_page.js" />
         <option value="$PROJECT_DIR$/data/article.json" />
-        <option value="$PROJECT_DIR$/About_page.html" />
         <option value="$PROJECT_DIR$/style/About_page.css" />
+        <option value="$PROJECT_DIR$/Home_page.html" />
+        <option value="$PROJECT_DIR$/About_page.html" />
       </list>
     </option>
   </component>
@@ -394,12 +391,12 @@
       <workItem from="1490880894598" duration="9375000" />
       <workItem from="1490891360138" duration="574000" />
       <workItem from="1490926062053" duration="19488000" />
-      <workItem from="1491024172052" duration="57386000" />
+      <workItem from="1491024172052" duration="58227000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="129813000" />
+    <option name="totallyTimeSpent" value="130654000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-1929" y="-60" width="1938" height="1168" extended-state="6" />
@@ -765,10 +762,26 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/style/Home_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="915">
+          <caret line="279" column="0" lean-forward="true" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/style/About_page.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="321">
+          <caret line="224" column="1" lean-forward="false" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/Home_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="131" column="50" lean-forward="false" selection-start-line="131" selection-start-column="50" selection-end-line="131" selection-end-column="50" />
+        <state relative-caret-position="350">
+          <caret line="23" column="39" lean-forward="false" selection-start-line="23" selection-start-column="39" selection-end-line="23" selection-end-column="39" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -783,14 +796,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/Home_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="915">
-          <caret line="279" column="0" lean-forward="true" selection-start-line="279" selection-start-column="0" selection-end-line="279" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/javascript/About_page.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1175">
@@ -801,18 +806,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/style/About_page.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="321">
-          <caret line="224" column="1" lean-forward="false" selection-start-line="224" selection-start-column="1" selection-end-line="224" selection-end-column="1" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/About_page.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="590">
-          <caret line="63" column="10" lean-forward="true" selection-start-line="63" selection-start-column="10" selection-end-line="63" selection-end-column="10" />
+        <state relative-caret-position="600">
+          <caret line="24" column="40" lean-forward="false" selection-start-line="24" selection-start-column="40" selection-end-line="24" selection-end-column="40" />
           <folding>
             <element signature="n#style#0;n#div#0;n#li#5;n#ul#0;n#nav#0;n#header#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#img#0;n#a#0;n#div#0;n#div#0;n#div#0;n#div#0;n#div#1;n#body#0;n#html#0;n#!!top" expanded="true" />
