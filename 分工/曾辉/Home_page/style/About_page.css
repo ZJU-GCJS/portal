@@ -204,7 +204,7 @@ body{
 #scroll{
     position: absolute;
     clear: both;
-    width: 300px;
+    width: 240px;
     margin-top: 30px;
     overflow: hidden;
 }
@@ -213,7 +213,7 @@ body{
     float: left;
     clear: both;
     width: 240px;;
-    height: 1200px;
+    height: 1240px;
 }
 
 #block-1{
@@ -233,7 +233,7 @@ body{
     position: absolute;
     left: 440px;
     top: 220px;
-    width: 900px;
+    width: 915px;
     padding: 10px;
 }
 
