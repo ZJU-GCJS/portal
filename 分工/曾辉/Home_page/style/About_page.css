@@ -30,12 +30,18 @@
     min-width: 768px;
     height: 4px;
     background-color: #333333;
-    background-image: -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
-    -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
-    background-image: -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-    -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
-    background-image: -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
-    -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image:
+            -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
+            -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
+    background-image:
+            -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image:
+            -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image:
+            -moz-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -moz-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
     background-size: 10px 4px;
     background-repeat: repeat-x;
     background-position: 0 100%;
@@ -73,55 +79,6 @@
     line-height: 28px;
     margin: 5px 26px;
 }
-
-/*@media screen and (max-width: 992px) {
-    #main-nav>ul{
-        width: 400px;
-        margin-top: 10px;
-    }
-    #main-nav>ul>li{
-        width: 100px;
-        margin:  10px;
-    }
-    #main-nav>ul>li>a{
-        margin: 0;
-    }
-}
-
-@media screen and (max-width: 768px) {
-    #main-header{
-        text-align: center;
-        width: 768px;
-    }
-    #flag{
-        float: none;
-        position: relative;
-        left: 0;
-        right: 0;
-        clear: both;
-        margin: 0 auto;
-    }
-    #main-nav{
-        float: none;
-        width: 750px;
-        clear: both;
-        margin: 0 auto;
-        height: 50px;
-    }
-
-    #main-nav>ul{
-        padding: 0;
-        width: 750px;
-        margin-top: 10px;
-    }
-    #main-nav>ul>li{
-        width: 100px;
-        margin:  10px;
-    }
-    #main-nav>ul>li>a{
-        margin: 0;
-    }
-}*/
 
 i[class^=fa]{
     margin-left: 5px;
