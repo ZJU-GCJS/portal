@@ -202,8 +202,9 @@ body{
 }
 
 #scroll{
-    position: absolute;
     clear: both;
+    position: absolute;
+    left: 58px;
     width: 240px;
     margin-top: 30px;
     overflow: hidden;
