@@ -14,22 +14,47 @@
 </head>
 <body>
 
-
-    <div class="input-group col-md-7" style="margin-top:0; position:relative">
-        <input type="text" class="form-control"placeholder="INPUT HERE">
-        <span class="input-group-btn">
+<div class="lin-input-wrapper">
+    <input type="text" class="lin-input" placeholder="INPUT HERE">
+    <span class="input-group-btn">
                <button class="btn btn-info btn-search">查找</button>
         </span>
+</div>
+
+<div class="entry-content">
+    <div id="search">
+        <form >
+            <div class="wrapper">
+                <input maxlength="80" placeholder="请输入关键字..." id="keyword" name="s" value="" type="search" required="">
+            </div>
+            <input class="submit" type="submit" value="搜索">
+        </form>
     </div>
+</div>
 
-<br>
-    <div class="input-group">
+<div class="lin-search-container">
 
-        <span class="input-group-addon">
-        <img src="https://image.flaticon.com/icons/svg/149/149852.svg" style="width: 1.6em;height: 1.6em;">
-        </span>
+    <div class="lin-search-result">
+        <article class="post">
+            <header class="post-header">
+                <h2 class="post-title"><a href="#">蛤</a></h2>
+            </header>
+            <div class="post-meta">
+                <img class="author-thumb" src="#" alt="Author image" >
+                <a href="#">作者</a>
 
-        <input type="text" class="form-control" placeholder="INPUT HERE">
+                <time class="post-date" datetime="2017-02-15">15 February 2017</time>
+            </div>
+            <section class="post-excerpt">
+                <p>苟利国家生死以，岂因祸福避趋之</p>
+                <p><a class="read-more" href="#">查看全文</a></p>
+            </section>
+        </article>
+        <nav class="pagination" role="navigation">
+            <span class="page-number">Page 1 of 146</span>
+            <a class="older-posts" href="#">Older Posts <span aria-hidden="true">→</span></a>
+        </nav>
+    </div>
 
 </div>
 <br><br>
