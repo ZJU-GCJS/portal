@@ -390,10 +390,6 @@ table {
     text-decoration: none;
 }
 
-.float-left {
-    float: left !important;
-}
-
 .tabnav-extra {
     display: inline-block;
     padding-top: 10px;
