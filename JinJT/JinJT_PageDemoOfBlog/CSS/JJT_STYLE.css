@@ -18,7 +18,7 @@
 .JJT_nav_container ul li
 {
     float:left;
-    height:60px;
+    height:50px;
 }
 
 .JJT_nav_container ul li a
@@ -26,11 +26,11 @@
     font-family:"Microsoft YaHei UI";
     color:slategrey;
     font-size:30px;
-    font-weight: bold;
+    /*font-weight: bold;*/
     width:165px;
     display:block;
     text-align: center;
-    padding:10px;
+    padding:5px;
 }
 
 .JJT_nav_container ul li a:hover
@@ -67,10 +67,97 @@
 
 .JJT_BigTitle
 {
-    margin:20px;
+    margin:10px;
     text-align:center;
     font-family:"Microsoft YaHei UI";
     color:dimgrey;
     font-weight:bold;
+    font-size:40px;
+}
+
+.JJT_dropdown
+{
+    font-family:"Microsoft YaHei UI";
+    /*font-weight:bold;*/
+    font-size:40px;
+    color:rgb(100,100,100);
+    width:200px;
+    padding:0;
+    border-bottom:solid rgba(33,33,33,0.1);
+    /*background:#2a6496;*/
+    background:rgba(160,160,160,0.5);
+    text-align:center;
+    list-style-type:none;
+    margin:0 auto;
+
+}
+
+.JJT_dropdown:hover
+{
+    background:rgba(160,160,160,1);
+}
+
+.JJT_dropdown li
+{
+    color:rgb(90,90,90);
+    margin:0 auto;
+    /*background:#66afe9;*/
+    background:rgba(220,220,220,2);
+}
+.JJT_dropdown li:hover
+{
+    background:rgb(200,200,200);
+}
+
+.JJT_dropdown li a
+{
+    text-decoration:none;
+    color:rgb(130,130,130);
+
+}
+
+.JJT_dropdown_item
+{
+    text-decoration:none;
+    display:none;
+    font-size:35px;
+    background:#adadad;
+}
+
+.passagedetail
+{
+    background:rgba(22,22,22,0.02);
+    height:800px;
+    font-family:"Microsoft YaHei UI";
     font-size:30px;
+}
+
+.JJT_Botton_To_Top
+{
+    opacity:0.5;
+    position:fixed;
+    bottom:20px;
+    right: 20px;
+    weight:60px;
+    height:60px;
+}
+
+.JJT_Botton_To_Top:hover
+{
+    opacity:1;
+}
+
+.icon-gc
+{
+    position:relative;
+    weight:100px;
+    height:100px;
+    padding:5px;
+    top:60px;
+
+}
+
+.icon
+{
+    width:300px;
 }
