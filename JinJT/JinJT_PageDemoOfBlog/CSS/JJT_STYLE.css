@@ -4,7 +4,7 @@
     margin-left:210px;
     margin-right:210px;
     margin-top:20px;
-    margin-bottom: 0px;
+    margin-bottom:-3px;
     display: inline-block;
 }
 
@@ -46,7 +46,7 @@
 
 .JJT_breadcrumb
 {
-    font-size:25px;
+    font-size:30px;
     font-family: "Microsoft YaHei UI";
     font-weight:bold;
     list-style-type: none;
@@ -77,11 +77,12 @@
 
 .JJT_dropdown
 {
+    cursor:default;
     font-family:"Microsoft YaHei UI";
     /*font-weight:bold;*/
-    font-size:40px;
+    font-size:35px;
     color:rgb(100,100,100);
-    width:200px;
+    width:300px;
     padding:0;
     border-bottom:solid rgba(33,33,33,0.1);
     /*background:#2a6496;*/
@@ -120,7 +121,7 @@
 {
     text-decoration:none;
     display:none;
-    font-size:35px;
+    font-size:30px;
     background:#adadad;
 }
 
