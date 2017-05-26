@@ -139,7 +139,7 @@
     position:fixed;
     bottom:20px;
     right: 20px;
-    weight:60px;
+    /*weight:60px;*/
     height:60px;
 }
 
@@ -162,3 +162,52 @@
 {
     width:300px;
 }
+
+.JJT_author
+{
+    font-family:"Microsoft YaHei UI";
+    display:inline-block;
+    font-size:12px;
+    margin-left:680px;
+    padding:5px;
+}
+
+.JJT_search
+{
+    margin-top:20px;
+    margin-left:1080px;
+}
+
+.JJT_search_input
+{
+    border:none;
+    border-radius:18px;
+    background-color:rgba(74,74,74,0.1);
+    padding:8px 50px 8px 14px;
+    outline:none;
+    font-family:"Microsoft YaHei UI";
+    color:rgb(74,74,74);
+}
+
+.JJT_search_input:hover
+{
+    border:2px solid rgba(74,74,74,0.3);
+    padding:6px 48px 7px 12px;
+}
+
+.JJT_search_button
+{
+
+    position:relative;
+    opacity: 0.3;
+    height:25px;
+    width:25px;
+    top:-2px;
+    right:38px;
+}
+
+.JJT_search_button:hover
+{
+    opacity:0.8;
+}
+

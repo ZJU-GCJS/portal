@@ -65,47 +65,45 @@ window.onload=function()
         }
         else
         {
-            (function()
-            {
-                var request=null;
-                if (window.XMLHttpRequest)
-                {
-                    request=new XMLHttpRequest();
-                }
-                else
-                {
-                    if (window.ActiveXObject)
-                    {
-                        request= new ActiveXObject("Microsoft.XMLHTTP");
-                    }
-                }
-                if (request)
-                {
-                    console.log("123");
-                    var display_txt_name=e.target.innerHTML;
-                    console.log(request.responseText);
-                    request.open("GET","hello.txt",true);
-                    request.onreadystatechange=function()
-                    {
-                        if (request.readyState===4)
-                        {
-                            if (request.status==200||request==0)
-                            {
-                                document.getElementById("JJT_passage").innerHTML=request.responseText;
-                            }
-                        }
-                    };
-                    request.send=null;
-                }
-                else
-                {
-                    alert("error0");
-                }
-            }());
+            // (function()
+            // {
+            //     var request=null;
+            //     if (window.XMLHttpRequest)
+            //     {
+            //         request=new XMLHttpRequest();
+            //     }
+            //     else
+            //     {
+            //         if (window.ActiveXObject)
+            //         {
+            //             request= new ActiveXObject("Microsoft.XMLHTTP");
+            //         }
+            //     }
+            //     if (request)
+            //     {
+            //         console.log("123");
+            //         var display_txt_name=e.target.innerHTML;
+            //         console.log(request.responseText);
+            //         request.open("GET","hello.txt",true);
+            //         request.onreadystatechange=function()
+            //         {
+            //             if (request.readyState===4)
+            //             {
+            //                 if (request.status==200||request==0)
+            //                 {
+            //                     document.getElementById("JJT_passage").innerHTML=request.responseText;
+            //                 }
+            //             }
+            //         };
+            //         request.send=null;
+            //     }
+            //     else
+            //     {
+            //         alert("error0");
+            //     }
+            // }());
         }
     });
-
-
 
 
     var Botton_To_Top=document.getElementsByClassName("JJT_Botton_To_Top")[0];
@@ -129,12 +127,20 @@ window.onload=function()
 };
 
 
-$(document).ready(function()
+window.ready=function()
 {
-   $(".JJT_dropdown_item").click(function()
-   {
-       console.log("123123");
-       var htmlobj=$.ajax({url:"hello.txt",async:false});
-       $(".passagedetail").html(htmlobj.responseText);
-   })
-});
+    var JJT_passage=document.getElementById("JJT_passage");
+    var content=document.ajax({url:"hello.txt",async:false});
+    JJT_passage.html(content.responseText);
+};
+
+//
+// $(document).ready(function()
+// {
+//    $(".JJT_dropdown_item").click(function()
+//    {
+//        console.log("123123");
+//        var htmlobj=$.ajax({url:"hello.txt",async:false});
+//        $("#JJT_passage").html(htmlobj.responseText);
+//    })
+// });
