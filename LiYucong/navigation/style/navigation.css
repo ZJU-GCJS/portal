@@ -1,0 +1,197 @@
+#main-header{
+    clear: both;
+    border-color: #333333;
+    background-color: #333333;
+    display: block;
+    min-height: 110px;
+    border-bottom: 0 solid transparent;
+    padding: 0;
+    margin: 0 auto;
+    border-top: 0 solid #333333;
+    max-width: 1440px;
+    width: auto;
+}
+
+#flag{
+    width: 155px;
+    height: 156px;
+    background: transparent;
+    left: 100px;
+    top: -2px;
+    position: absolute;
+    float: left;
+}
+
+.border_saw{
+    clear: both;
+    margin: 0 auto;
+    max-width: 1440px;
+    min-width: 768px;
+    height: 4px;
+    background-color: #333333;
+    background-image:
+            -webkit-gradient(linear, 50% 0, 0 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2)),
+            -webkit-gradient(linear, 50% 0, 100% 100%, from(transparent), color-stop(0.5, transparent), color-stop(0.5, #f2f2f2), to(#f2f2f2));
+    background-image:
+            -ms-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -ms-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image:
+            -o-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -o-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-image:
+            -moz-linear-gradient(45deg , #f2f2f2, #f2f2f2 34%, transparent 34%, transparent),
+            -moz-linear-gradient(135deg, #f2f2f2, #f2f2f2 34%, transparent 34%, transparent);
+    background-size: 10px 4px;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+}
+
+#main-nav{
+    max-width: 829px;
+    height: 108px;
+    float:  right;
+}
+
+#main-nav>ul {
+    width: 780px;
+    height: 28px;
+    margin-right: 5px;
+    margin-top: 76px;
+    margin-bottom: 5px;
+    list-style-type: none;
+    float: right;
+    clear: both;
+}
+
+#main-nav>ul>li{
+    position: relative;
+    float: left;
+}
+
+#main-nav>ul>li>a {
+    color: #f9f9f9;
+    text-decoration: none;
+    text-align: center;
+    font-size: 22px;
+    font-style: normal;
+    height: 26px;
+    line-height: 28px;
+    margin: 5px 26px;
+}
+
+@media screen and (max-width: 992px) {
+    #main-nav>ul{
+        width: 400px;
+        margin-top: 10px;
+    }
+    #main-nav>ul>li{
+        width: 100px;
+        margin:  10px;
+    }
+    #main-nav>ul>li>a{
+        margin: 0;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    #main-header{
+        text-align: center;
+        width: 768px;
+    }
+    #flag{
+        float: none;
+        position: relative;
+        left: 0;
+        right: 0;
+        clear: both;
+        margin: 0 auto;
+    }
+    #main-nav{
+        float: none;
+        width: 750px;
+        clear: both;
+        margin: 0 auto;
+        height: 50px;
+    }
+
+    #main-nav>ul{
+        padding: 0;
+        width: 750px;
+        margin-top: 10px;
+    }
+    #main-nav>ul>li{
+        width: 100px;
+        margin:  10px;
+    }
+    #main-nav>ul>li>a{
+        margin: 0;
+    }
+}
+
+i[class^=fa]{
+    margin-left: 5px;
+    font-size: 18px;
+}
+
+.down-menu{
+    box-shadow: 3px 3px 5px rgba(0,0,0,.4);
+    background-color: #FFFFFF;
+}
+
+.down-menu:after{
+    content: '';
+    position: absolute;
+    top: -23px;
+    right: 47px;
+    width: 0;
+    height: 0;
+    border: 12px transparent solid;
+    border-bottom-color: #ffffff;
+    clear: both;
+}
+
+.down-menu-caret::before{
+    content: '';
+    position: absolute;
+    top: -40px;
+    right: 38px;
+    width: 0;
+    height: 0;
+    border: 20px transparent solid;
+    border-bottom-color: #000000;
+    clear: both;
+}
+
+#nav-platform-menu{
+    width: 200px;
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 46px;
+    border-top: 6px solid #000000;
+}
+
+#nav-platform-menu>ul{
+    list-style-type: none;
+    padding: 10px;
+}
+
+#nav-platform-menu>ul>li{
+    text-align: left;
+    width: 110px;
+    margin: 10px;
+}
+
+#nav-platform-menu>ul>li>a{
+    font-size: 19px;
+    text-decoration: none;
+    color: black;
+}
+
+body{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    background-color: #f9f9f9;
+    font-family: "Open Sans",Arial,sans-serif;
+}
