@@ -36,9 +36,7 @@ window.onload = function () {
     demo.onmouseout = function () {
         temp = setInterval(picture, speed);
     };
-};
 
-$(document).ready(function () {
     $.ajax({
         type: 'GET',
         dataType: 'json',
@@ -52,4 +50,5 @@ $(document).ready(function () {
             console.log(textStatus);
         }
     });
-});
+
+};
