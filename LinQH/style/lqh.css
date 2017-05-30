@@ -2,59 +2,31 @@ body
 {
     background-color: #F5F5F5;
 }
-
+.form-control
+{
+}
 .search-input-wrapper
 {
-    margin-top: 70px;
+    margin-top: 6rem;
 }
-
 .search-input-2
 {
     border: 0;
+    top: 0;
     background-color: white;
-    -webkit-box-shadow: none;s
+    -webkit-box-shadow: none;
     box-shadow: none;
     transition : none;
+    border-radius: 0;
 }
-
 .search-respond
 {
-    margin-top: 0rem;
+    margin-top: 0;
     margin-bottom:1rem;
     padding: 0 0 2rem 2rem ;
     word-wrap: break-word;
     background-color: #fff;
     overflow: hidden;
-}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.lin-input-wrapper
-{
-    text-align: center;
-    min-width: 600px;
-}
-.lin-input
-{
-
 }
 .lin-search-container
 {
@@ -65,7 +37,7 @@ body
 
 }
 .post {
-    margin:0 auto 2rem;
+    margin:0 0 1rem;
     padding: 2rem;
     word-wrap: break-word;
     background-color: #fff;
@@ -99,7 +71,6 @@ body:not(.post-template) .post-title {
     margin: 0;
     line-height: 1.7em;
 }
-
 .read-more {
     display: inline-block;
     text-align: center;
@@ -127,7 +98,6 @@ body:not(.post-template) .post-title {
     font-size: 1.4rem;
     /*line-height: 2.2rem;*/
 }
-
 .author-thumb {
     width: 24px;
     height: 24px;
@@ -135,7 +105,6 @@ body:not(.post-template) .post-title {
     margin-right: 9px;
     border-radius: 100%;
 }
-
 .post-meta a {
     text-decoration: none;
 }
@@ -143,19 +112,16 @@ body:not(.post-template) .post-title {
 .post-meta a:hover {
     text-decoration: underline;
 }
-
 .user-meta {
     position: relative;
     padding: 0.3rem 40px 0 100px;
     min-height: 77px;
 }
-
 .post-date {
     display: inline-block;
     margin-left: 8px;
     white-space: nowrap;
 }
-
 .user-image {
     position: absolute;
     top: 0;
@@ -166,6 +132,8 @@ body:not(.post-template) .post-title {
     display: block;
     font-weight: 700;
 }
+
+
 .pagination {
     position: relative;
     width: 80%;
@@ -202,38 +170,3 @@ body:not(.post-template) .post-title {
     min-width: 100px;
 }
 
-.newer-posts {
-    left: 0;
-}
-
-.older-posts:hover,
-.newer-posts:hover {
-    color: #ddd;
-}
-
-/*
-input {
-    text-rendering: auto;
-    letter-spacing: normal;
-    word-spacing: normal;
-    text-transform: none;
-    text-indent: 0;
-    text-shadow: none;
-    display: inline-block;
-    text-align: start;
-    margin: 0;
-    font: 13.3333px Arial;
-
-    user-select: text;
-    cursor: auto;
-
-    line-height: normal;
-
-    position: relative;
-
-    !*padding: 0.8em 3em 0.8em 0.8em;*!
-    color: #222;
-    border-radius: 3px;
-    font-size: 1.4em;
-}
-*/
