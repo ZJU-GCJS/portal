@@ -124,6 +124,24 @@ window.onload=function()
         }
     };
 
+    var nav=document.getElementById("JJT_nav").getElementsByTagName("li");
+    var auto_dropmenu=document.getElementById("JJT_automatic_dropdown_menu");
+    nav[6].onmouseover=
+        (function()
+        {
+            auto_dropmenu.style.display="block";
+        });
+
+    nav[6].mouseleave=
+        setTimeout(function()
+        {
+            auto_dropmenu.mouseleave=
+                (function()
+                {
+                    auto_dropmenu.style.display="none";
+
+                })
+        },300);
 };
 
 
