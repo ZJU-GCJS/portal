@@ -48,102 +48,59 @@
 <div class="border_saw"></div>
 
 <!-- Header End -->
-<br>
-<div class="container ">
+
+
+<div class="container">
     <div class="search-input-wrapper">
         <div class="col-md-2 column"></div>
         <div class="col-md-8 column">
             <div class="search-form">
-                <form class="search-input1">
-                    <div class="input-group">
-                        <span class="input-group-addon glyphicon glyphicon-search search-input-2" ></span>
-                        <input type="search" class="form-control input-lg search-input-2" placeholder="lalala">
-                        <!--<span class="input-group-addon">
-                            <button class="btn btn-info btn-search">查找</button>
-                        </span>-->
-                    </div>
-                </form>
+                <div class="input-group">
+                    <span class="input-group-addon glyphicon glyphicon-search search-input-2" ></span>
+                    <input type="search" id="search1" class="form-control input-lg search-input-2" placeholder="试一下 0 6 12 24">
+                </div>
 
             </div>
         </div>
     </div>
     <div class="col-md-2 column"></div>
 
-    <div class="search-container">
-
-    </div>
-
-
 </div>
 
 <br>
-<!--
 
-<div class="lin-input-wrapper">
-    <input type="text" class="lin-input" placeholder="INPUT HERE">
-    <span class="input-group-btn">
-               <button class="btn btn-info btn-search">查找</button>
-        </span>
-</div>
-
-<div class="entry-content">
-    <div id="search">
-        <form >
-            <div class="wrapper">
-                <input maxlength="80" placeholder="请输入关键字..." id="keyword" name="s" value="" type="search" required="">
-            </div>
-            <input class="submit" type="submit" value="搜索">
-        </form>
-    </div>
-</div>
--->
-
-<div class="container lin-search-container">
+<div class="container lin-search-container" hidden>
 
     <div class="col-md-10 column">
-        <div class="search-respond">
+        <div class="search-respond" id="search2" hidden>
             <h3>结果</h3>
-            <p>找到20篇关于XXX的文档。已显示结果1-20。
-            </p>
+            <p>找到 0 篇关于 XXX 的文档 。</p>
         </div>
 
-        <div class="lin-search-result">
-            <article class="post">
-                        <header class="post-header">
-                            <h2 class="post-title"><a href="#">蛤</a></h2>
-                        </header>
-                        <div class="post-meta">
-                            <img class="author-thumb" src="#" alt="Author image" >
-                            <a href="#">作者</a>
+        <div class="lin-search-result" hidden>
+<!--            <article class="post">
+                <header class="post-header">
+                    <h2 class="post-title"><a href="#">蛤</a></h2>
+                </header>
+                <div class="post-meta">
+                    <img class="author-thumb" src="#" alt="Author image" >
+                    <a href="#">作者</a>
 
-                            <time class="post-date" datetime="2017-02-15">15 February 2017</time>
-                        </div>
-                        <section class="post-excerpt">
-                            <p>苟利国家生死以，岂因祸福避趋之</p>
-                            <p><a class="read-more" href="#">查看全文</a></p>
-                        </section>
-                    </article>
-<!--
-                <article class="post">
-                    <header class="post-header">
-                        <h2 class="post-title"><a href="#">蛤</a></h2>
-                    </header>
-                    <div class="post-meta">
-                        <img class="author-thumb" src="#" alt="Author image" >
-                        <a href="#">作者</a>
-
-                        <time class="post-date" datetime="2017-02-15">15 February 2017</time>
-                    </div>
-                    <section class="post-excerpt">
-                        <p>苟利国家生死以，岂因祸福避趋之</p>
-                        <p><a class="read-more" href="#">查看全文</a></p>
-                    </section>
-                </article>-->
-            <nav class="pagination" role="navigation">
-                <a class="older-posts" href="#">Older Posts <span aria-hidden="true">→</span></a>
-                <span class="page-number">Page 1 of 2</span>
-            </nav>
+                    <time class="post-date" datetime="2017-02-15">15 February 2017</time>
+                </div>
+                <section class="post-excerpt">
+                    <p>苟利国家生死以，岂因祸福避趋之</p>
+                    <p><a class="read-more" href="#">查看全文</a></p>
+                </section>
+            </article>-->
         </div>
+
+        <nav class="lin-search-nav" hidden>
+            <ul class="pager">
+                <li class="previous"><a href="#"><span aria-hidden="true">&larr;</span> Newer</a></li>
+                <li class="next"><a href="#">Older <span aria-hidden="true">&rarr;</span></a></li>
+            </ul>
+        </nav>
     </div>
 
     <div class="col-md-2 column"></div>

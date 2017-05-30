@@ -3,12 +3,15 @@
 <head>
     <meta charset="UTF-8">
     <title>GoogleCamp</title>
-    <link rel="stylesheet" href="../css/bootstrap.min.css">
+
     <script src="../js/jquery-3.1.1.min.js"></script>
     <script src="../js/bootstrap.js"></script>
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
     <link rel="stylesheet" href="../css/css-lyc-BlogIndexPage.css">
+    <link href="../font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
     <link type="text/css" href="../navigation/style/navigation.css" rel="stylesheet">
     <script src="../navigation/javascript/navigation.js" type="text/javascript"></script>
+
 
 
 </head>
@@ -22,7 +25,7 @@
 
     <nav id="main-nav">
         <ul>
-            <li><a href='#'>Home</a> </li>
+            <li><a href="#">Home</a> </li>
             <li><a href="#">About</a> </li>
             <li><a href="#">JavaScript</a> </li>
             <li><a href="#">Python</a> </li>
@@ -47,41 +50,42 @@
 
     <div class="container">
          <div class="row">
-        <div class="col-sm-3  blog-sidebar">
-            <div class="sidebar-module">
-        <h4>Archives</h4>
-        <ol class="list-unstyled">
-            <li>
-                <a href="#">January 2017</a>
-            </li>
-            <li>
-                <a href="#">February 2017</a>
-            </li>
-            <li>
-                <a href="#">March 2017</a>
-            </li>
-            <li>
-                <a href="#">April 2017</a>
-            </li>
-        </ol>
-    </div>
-            <div class="sidebar-module">
-        <h4>Categories</h4>
-        <ol class="list-unstyled">
-            <li>
-                <a href="#">Python</a>
-            </li>
-            <li>
-                <a href="#">JavaScript</a>
-            </li>
-            <li>
-                <a href="#">Unity3D</a>
-            </li>
-        </ol>
-    </div>
-        </div>
-         <div class="col-sm-9 col-md-9">
+        <div class="col-sm-3  col-md-3 blog-sidebar">
+            <!--<div class="col-sm-3 float-left pr-4" role="navigation">-->
+                <br/>
+                <br/>
+                <br/>
+                <br/>
+                <nav class="menu" data-pjax="">
+                    <h3 class="menu-heading">
+                        Archive
+                    </h3>
 
+                    <a href="#" class="js-selected-navigation-item selected menu-item">January, 2017</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">February, 2017</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">March, 2017</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">April, 2017</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">May, 2017</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">...</a>
+                </nav>
+
+                <nav class="menu" data-pjax="">
+                    <h3 class="menu-heading">
+                        Category
+                    </h3>
+
+                    <a href="#" class="js-selected-navigation-item selected menu-item">JavaScript</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">Python</a>
+                    <a href="#" class="js-selected-navigation-item menu-item">Unity3D</a>
+                </nav>
+            </div>
+
+
+         <div id="css-lyc-allthumbnail" class="col-sm-9 col-md-9 ">
+             <br/>
+             <br/>
+             <br/>
+             <br/>
          <div class="col-sm-4 col-md-4">
              <div class="thumbnail">
                  <a href="#">
@@ -91,6 +95,7 @@
                      <h3>标题</h3>
                      <p>内容概要</p>
                  </div>
+
              </div>
          </div>
 
@@ -207,27 +212,15 @@
              </div>
 
 
-             <nav aria-label="Page navigation">
-                 <ul class="pagination"id="pagination_lyc">
-                     <li>
-                         <a href="#" aria-label="Previous">
-                             <span aria-hidden="true">&laquo;</span>
-                         </a>
-                     </li>
-                     <li><a href="#">1</a></li>
-                     <li><a href="#">2</a></li>
-                     <li><a href="#">3</a></li>
-                     <li><a href="#">4</a></li>
-                     <li><a href="#">5</a></li>
-                     <li>
-                         <a href="#" aria-label="Next">
-                             <span aria-hidden="true">&raquo;</span>
-                         </a>
-                     </li>
-                 </ul>
-             </nav>
+
      </div>
+             <div class="col-sm-9 col-md-9 col-sm-offset-3 col-md-offset-3 btn-group" role="group" aria-label="...">
+
+                    <button  href="#" id="css-lyc-button-lastpage" type="button" class="btn btn-default">上一页</button>
+                    <button  href="#" id="css-lyc-button-nextpage" type="button" class="btn btn-default">下一页</button>
+             </div>
      </div>
+
         <footer>
             <div id="QR-code">
                 <img src="../image/icon-gc.jpg" style="width: 100px">
