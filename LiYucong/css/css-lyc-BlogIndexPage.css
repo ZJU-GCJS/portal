@@ -3,3 +3,14 @@
     width: 240px;
 
 }
+#css-lyc-button-nextpage {
+    float:right;
+    position:relative;
+    right:14px;
+
+}
+#css-lyc-button-lastpage {
+    float:left;
+    position:relative;
+    left:14px;
+}
