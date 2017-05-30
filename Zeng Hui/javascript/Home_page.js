@@ -11,6 +11,22 @@ window.onload = function () {
     target_2.onmouseout= function () {
         document.getElementById("nav-platform-menu").style.display = "none";
     };
+
+
+    (function () {
+        var winWitdth ;
+        if (window.innerWidth)
+            winWitdth = window.innerWidth;
+        else
+        if ((document.body) && (document.body.clientWidth))
+            winWitdth = document.body.clientWidth;
+        if (winWitdth < 992) {
+            var blog = $("#home-blog .col-sm-6 ");
+            var row = $("#home-blog .row");
+            row[2].appendChild(blog[2]);
+            row[2].appendChild(blog[5]);
+        }
+    }())
 };
 
 
