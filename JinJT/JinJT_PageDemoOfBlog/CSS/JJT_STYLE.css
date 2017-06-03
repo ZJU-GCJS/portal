@@ -1,3 +1,44 @@
+.JJT_automatic_dropdown_menu
+{
+    display: none;
+    position:absolute;
+    margin-left:1045px;
+    padding:0;
+    font-family:"Microsoft YaHei UI";
+    font-size:30px;
+}
+
+.JJT_automatic_dropdown_menu ul
+{
+    padding:0;
+
+    list-style-type: none;
+    background-color:rgb(73,73,73);
+}
+
+.JJT_automatic_dropdown_menu ul li
+{
+    width:165px;
+    padding-top:5px;
+    padding-bottom:5px;
+}
+
+.JJT_automatic_dropdown_menu ul li:hover
+{
+    background-color: rgb(50,50,50);
+
+}
+
+.JJT_automatic_dropdown_menu ul li a
+{
+    display:block;
+
+    text-decoration: none;
+    text-align: center;
+    color:white;
+}
+
+
 .JJT_nav_container
 {
     background: #333333;
@@ -209,43 +250,4 @@
 .JJT_search_button:hover
 {
     opacity:0.8;
-}
-.JJT_automatic_dropdown_menu
-{
-    display: none;
-    position:absolute;
-    margin-left:1045px;
-    padding:0;
-    font-family:"Microsoft YaHei UI";
-    font-size:30px;
-}
-
-.JJT_automatic_dropdown_menu ul
-{
-    padding:0;
-
-    list-style-type: none;
-    background-color:rgb(73,73,73);
-}
-
-.JJT_automatic_dropdown_menu ul li
-{
-    width:165px;
-    padding-top:5px;
-    padding-bottom:5px;
-}
-
-.JJT_automatic_dropdown_menu ul li:hover
-{
-    background-color: rgb(50,50,50);
-
-}
-
-.JJT_automatic_dropdown_menu ul li a
-{
-    display:block;
-
-    text-decoration: none;
-    text-align: center;
-    color:white;
 }

@@ -1,5 +1,17 @@
 window.onload=function()
 {
+
+    var target_1 = document.getElementById("main-nav").getElementsByTagName("li")[5];
+    target_1.onmouseover = function () {
+        document.getElementById("nav-platform-menu").style.display = "block";
+    };
+
+    var target_2 = document.getElementById("main-nav").getElementsByTagName("li")[5];
+    target_2.onmouseout= function () {
+        document.getElementById("nav-platform-menu").style.display = "none";
+    };
+
+
   var passage_lists=document.getElementById("JJT_passage_lists");
     var passage_time_lists={
         "2016":{
@@ -21,6 +33,8 @@ window.onload=function()
             "text2":2
         }
     };
+
+
 
   for (var i in passage_time_lists)
   {

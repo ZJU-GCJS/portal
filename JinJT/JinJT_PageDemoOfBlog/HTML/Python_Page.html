@@ -6,8 +6,8 @@
     <title>GC_BLOG_PageOfJsAndUnity_DEMO</title>
     <link type="text/css" rel="stylesheet" href="../CSS/JJT_STYLE.css">
     <link type="text/css" rel="stylesheet" href="../CSS/bootstrap.min.css">
-
-
+    <link href="../CSS/font-awesome-4.7.0/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link type="text/css" rel="stylesheet" href="../CSS/Home_page.css">
 
     <script src="../JavaScript/jquery.min.js"></script>
     <script src="../JavaScript/bootstrap.min.js"></script>
@@ -17,72 +17,34 @@
 
 <body style="width: 1440px;">
 
-    <div  style="background:#222222;">
+    <header id="main-header">
 
-        <div>
-            <img style="width: 25%;height: auto;margin-left:30px;margin-top:30px;" class="img-rounded"
-                src="../Imagines/LOGO2.png">
+        <div id="flag">
+            <img src="../Imagines/icon-flag.png" alt="Background" width="162px">
         </div>
 
-        <div class="JJT_nav_container" id="JJT_nav">
-            <ul >
-                <li style="padding:5px;"></li>
-
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#">Home</a> </li>
+                <li><a href="#">About</a> </li>
+                <li><a href="#">JavaScript</a> </li>
+                <li><a href="#">Python</a> </li>
+                <li><a href="#">Unity3D</a> </li>
                 <li>
-                    <a href="#">
-                         Home
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-
-                        About
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-
-                        JavaScript
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-
-                        Python
-                    </a>
-                </li>
-
-                <li>
-                    <a href="#">
-
-                        Unity3D
-                    </a>
-                </li>
-
-                <li >
-                    <a href="#">
-
-                        Blog
-
-                    </a>
-                    <div class="JJT_automatic_dropdown_menu" id="JJT_automatic_dropdown_menu">
+                    <a href="#">Blog<i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                    <div class="down-menu down-menu-caret" style="display: none; z-index: 99998;" aria-hidden="false" id="nav-platform-menu">
                         <ul>
                             <li><a href="#">JavaScript</a></li>
                             <li><a href="#">Python</a></li>
                             <li><a href="#">Unity3D</a></li>
                         </ul>
                     </div>
-
                 </li>
-
-
-                <li style="padding-right:10px;"></li>
             </ul>
-        </div>
-    </div>
+        </nav>
+
+    </header>
+    <div class="border_saw"></div>
 
     <div class="col-xs-3 col-md-3 col-lg-3" style="margin:80px 0 20px 80px">
         <ul class="JJT_breadcrumb">
@@ -93,7 +55,7 @@
             </li>
             <li>
                 <a href="#">
-                    JavaScript
+                    Python
                 </a>
             </li>
         </ul>
