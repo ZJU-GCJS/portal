@@ -212,13 +212,13 @@ body{
     height: auto;
 }
 
-#form-search{
+#home-search{
     margin: -4% 20% 25px;
     height: 100%;
     overflow: hidden;
 }
 
-#home-search{
+#form-search{
     height: 100%;
     font-size: 22px;
     overflow: hidden;
@@ -232,7 +232,7 @@ body{
 }
 
 @media screen and (max-width: 992px) {
-    #home-search {
+    #form-search {
         font-size: 18px;
     }
 
@@ -240,7 +240,7 @@ body{
         height: 28px;
     }
 
-    #form-search{
+    #home-search{
         margin: -4% 20% 15px;
     }
 }
