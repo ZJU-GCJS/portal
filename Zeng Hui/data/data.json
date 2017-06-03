@@ -3,37 +3,43 @@
     {
       "img": "image/0205.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 1st test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 1st test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     },
 
     {
       "img": "image/0206.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 2nd test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 2nd test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     },
 
     {
       "img": "image/0207.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 3rd test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 3rd test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     },
 
     {
       "img": "image/0206.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 4th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 4th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     },
 
     {
       "img": "image/0205.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 5th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 5th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     },
 
     {
       "img": "image/0207.png",
       "title": "HELLO WORLD",
-      "article": "Hello ajax! This is my 6th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function"
+      "article": "Hello ajax! This is my 6th test. I want to test my functionHello ajax! This is my first test. I want to test my functionHello ajax! This is my first test. I want to test my function",
+      "link": "#"
     }
   ]
 }

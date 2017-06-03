@@ -26,7 +26,11 @@ window.onload = function () {
             row[2].appendChild(blog[2]);
             row[2].appendChild(blog[5]);
         }
-    }())
+    }());
+
+    $("#form-search .glyphicon-search").click(function () {
+        document.homeSearch.submit();
+    });
 };
 
 
@@ -40,11 +44,13 @@ $(document).ready(
                 var article = $("#home-blog .blog-article");
                 var title = $("#home-blog .blog-title");
                 var img = $("#home-blog .thumbnail>img");
+                var link = $("#home-blog .caption a");
                 for (var index = 0; index < data["blog"].length; index++) {
                    /* img[index].setAttribute("data-src", data["blog"][index]["img"]);*/
                     img[index].src = data["blog"][index]["img"];
                     article[index].innerHTML = data["blog"][index]["article"];
                     title[index].innerHTML = data["blog"][index]["title"];
+                    link[index].href = data["blog"][index]["link"];
                 }
             }, error: function (XMLHttpRequest, textStatus, errorThrown) {
                 console.log(XMLHttpRequest.status);
